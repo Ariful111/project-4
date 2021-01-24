@@ -1,0 +1,27 @@
+/*header*/
+header .container{
+	animation-duration:1.5s;
+}
+header h1{
+	animation-delay:1.5s;
+}
+/*imgcontainer*/
+.imgcontainer .div-2{
+	animation-delay:0.25s;
+}
+.imgcontainer .div-3{
+	animation-delay:0.5s;
+}
+.imgcontainer .div-4{
+	animation-delay:0.75s;
+}
+/*containerlinks*/
+.containerlinks .div-2{
+	animation-delay:.25s;
+}
+.containerlinks .div-3{
+	animation-delay:.5s;
+}
+.containerlinks .div-4{
+	animation-delay:.75s;
+}

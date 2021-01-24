@@ -1,0 +1,150 @@
+
+@media (min-width:1200px){
+	.carouselcontainer>img{
+		display:none;
+	}
+	/* link section */
+	.linkcontainer a{
+		font-size:14px;
+	}
+}
+@media (max-width:1199px){
+	.carouselcontainer>img{
+		display:none;
+	}
+	.videocontent .row>div:last-child>div{
+		margin:10px;
+	}
+}
+@media (max-width:991px){
+	.navcontainer .nav-link{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.navbar-brand img{
+		display:none;
+	}
+	.navcontainer img{
+		display:none;
+	}
+	.videocontent .row>div:last-child>div{
+		width:100%;
+	}
+	
+}
+@media (max-width:767px){
+	header input{
+			width:150px;
+		}
+	.navcontainer{
+		margin-top:20px;
+		background-color:#313131;
+		background-image:none;
+	}
+	
+	.navbar-brand img{
+		display:block;
+	}
+	.navcontainer img{
+		display:block;
+	}
+	#demo{
+		display:none;
+	}
+	.carouselcontainer>img{
+		display:block;
+		margin-top:5px;
+	}
+	.videocontent>.row>div:first-child{
+		width:100%;
+		display:flex;
+	}
+	.videocontent>.row>div:first-child>div{
+		width:30%;
+		margin-right:5%;
+		text-align:center;
+	}
+	.videocontent>.row>div:first-child>div:last-child{
+		margin-right:0;
+	}
+	/* link section */
+	.linkcontainer{
+		width:90%;
+	}
+	.linkcontainer a{
+		font-size:14px;
+	}
+	.link-1, .link-2{
+		border-bottom:1px solid #ddd;
+		padding-bottom:10px;
+	}
+}
+@media (max-width:575px){
+	header input{
+			width:150px;
+		}
+	.navcontainer{
+		margin-top:20px;
+		background-color:#313131;
+		background-image:none;
+	}
+	.container{
+		width:96%;
+	}
+	/* footer section */
+	.fcontainer>div{
+		display:block !important;
+		text-align:center;
+	}
+}
+@media (max-width:450px){
+	header input{
+			width:150px;
+		}
+	header .nav-link{
+		border-right:none;
+	}
+	header .navbar{
+		display:block;
+	}
+	.navcontainer{
+		margin-top:20px;
+		background-color:#313131;
+		background-image:none;
+	}
+	/* link section */
+	.linkcontainer a{
+		font-size:12px;
+	}
+}
+@media (max-width:320px) {
+	header input{
+		width:120px;
+		padding-left:5px;
+	}
+	.videocontent > .row > div{
+		margin-left:12px;
+	}
+	.navbar-toggler-icon{
+		width:.5em;
+		height:.5em;
+	}
+	.videocontent>.row>div:first-child h2{
+		font-size:13px;
+	}
+	
+	.linkcontainer .row>div{
+		flex:148px;
+		max-width:100%;
+		border-bottom:1px solid #ddd;
+		padding-bottom:10px;
+	}
+	.linkcontainer .row>div:last-child{
+		border-bottom:none;
+		padding-bottom:0;
+	}
+	/* footer */
+	.fcontainer p{
+		font-size:10px;
+	}
+}
